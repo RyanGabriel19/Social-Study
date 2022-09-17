@@ -1,0 +1,183 @@
+html, body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #201b2c;
+}
+
+h1 {
+    padding-left: 9px;
+}
+
+/*NAVEGAÇÃO*/
+nav {
+    font-family: 'Nunito', sans-serif;
+    border-style:groove;
+    border-color: #FFFFFF;
+}
+
+
+nav ul li a {
+    display: inline-table;
+}
+
+/*div*/
+
+div {
+    display: inline-flex;
+}
+
+/*ENEM*/
+
+.enem ul h1 {
+    color: #FFFFFF;
+}
+
+.enem ul a {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.enem ul a:hover {
+    box-shadow: 0em 0em 1.4em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    width: 366px;
+    transition: 0.2s;
+}
+
+/*
+.enem ul a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+*/
+
+/*SSA*/
+
+.ssa {
+    margin-left: 30%;
+}
+
+.ssa .ulssa h1 {
+    color:#FFFFFF
+}
+
+.ssa ul a {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+}
+
+.ssa ul a:hover {
+    box-shadow: 0em 0em 1.4em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    width: 366px;
+    transition: 0.2s;
+}
+
+/*
+.ssa ul a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+*/
+
+.ssap {
+    margin-left: 30%;
+}
+
+.ssap .ulssap h1 {
+    color:#FFFFFF
+}
+
+.ssap ul a {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+}
+
+.ssap ul a:hover {
+    box-shadow: 0em 0em 1.4em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    width: 366px;
+    transition: 0.2s;
+}
+
+/*
+.ssap ul a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+*/
+
+
+.ssa2 .ulssa2 h1 {
+    color: #FFFFFF;
+}
+
+.ssa2 ul a {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+}
+
+.ssa2 ul a:hover {
+    box-shadow: 0em 0em 1.4em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    width: 366px;
+    transition: 0.2s;
+}
+
+/*
+.ssa2 ul a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+*/
+
+.ssa3 {
+    margin-left: 30%;
+}
+
+.ssa3 .ulssa3 h1 {
+    color: #FFFFFF;
+}
+
+.ssa3 ul a {
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+}
+
+.ssa3 ul a:hover {
+    box-shadow: 0em 0em 1.4em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    width: 366px;
+    transition: 0.2s;
+}
+
+/*
+.ssa3 ul a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 20px;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+*/

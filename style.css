@@ -1,0 +1,607 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+}
+
+.titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    padding-top: 4%;
+}
+
+.botao {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #201b2c;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+
+button:hover, button:focus {
+    border-color: #201b2c;
+    color: #FFFFFF;
+}
+
+.botao:hover,
+.botao:focus {
+    box-shadow: 0em 0em 1.2em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+
+/* Navegação */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #201b2c;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 8px 0;
+    width: 70%;
+    height: 100%;
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+nav ul li a:hover {
+    background-color: #00ff88;
+    color: #201b2c;
+    border-radius: 10px;
+    transition-duration: 2s;
+    transition: 0.4s;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/estudo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1 {
+    color: #FFFFFF;    
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #201b2c;
+    color: #FFFFFF;
+}
+
+#sobre h2 {
+    color: #FFFFFF;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao {
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+/*matérias*/
+
+#materias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#materias h2 {
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+#materias img {
+    width: 100%;
+}
+
+#materias a img:hover {
+    box-shadow: 0em 0em 1.6em -0.1em  #00ff88;
+    transform: translateY(-0.25em);
+    max-width: 30%; 
+    transition: 0.4s;
+}
+
+#provas {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #201b2c;
+}
+
+#provas h1, h2 {
+    color: #FFFFFF;
+}
+
+#provas a {
+    color: #00ff88;
+    background-color: #2f2841;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#provas a:hover {
+    box-shadow: 0em 0em 1.6em -0.1em  #00ff88;
+    transform: translateY(-0.20em);
+    width: 104px;
+    transition: 0.4s;
+}
+
+#provas #ssa div{
+    display: inline-block;
+    margin: 50px;
+}
+
+#provas #ssa2 div{
+    display:inline-block;
+    margin: 50px;
+}
+
+/*contato*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+#contato h2 {
+    color: #000000;
+}
+
+#contato a {
+    color: #00ff88;
+}
+
+/*rodapé*/
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #201b2c;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00ff88;
+}
+
+@media screen and (min-width: 768px) {
+
+    /*nav*/
+    nav {
+        top: 0;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*cabeçalho*/
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    /*sobre*/
+    #sobre {
+        font-family: 'Nunito', sans-serif;
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*materias*/
+    #materias {
+        padding-left: 8.55%;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #materias h2 {
+        width: 100%;
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    #materias img {
+        border-radius: 30px;
+        border-style:groove;
+        width:  30%;
+    }
+    /*contato*/
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        font-family: 'Nunito', sans-serif;
+        width: 100%;
+    }
+
+    #contato img {
+        padding-left: 60px
+    }
+
+    
+}
+
+/*login*/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family:"Noto Sans", sans-serif; 
+
+}
+body * {
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+width: 100vw;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: #77ffc0;   
+}
+
+.left-img{
+    width: 35vw;
+}
+
+.right-login{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+   
+.btn-login{
+    width: 60%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+}
+
+body a {
+    color: #00ff88;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+    flex-direction: column;
+}
+.left-login > h1{
+display: none;
+}
+.left-login{
+    width: 100%;
+    height: 100%;
+}
+.right-login{
+    width: 100%;
+    height: 100%;
+}
+.left-img{
+    width: 50vh;
+}
+.card-login{
+    width: 90%;
+}
+}
+
+/*cadastro*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family:"Noto Sans", sans-serif; 
+
+}
+body * {
+    box-sizing: border-box;
+}
+
+div a {
+    color: #77ffc0;
+    background-color: #2f2841;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+width: 100vw;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: #77ffc0;   
+}
+
+.left-img{
+    width: 35vw;
+}
+
+.right-login{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-login > h5{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;  
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 5px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+   
+.btn-register{
+    width: 60%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+    flex-direction: column;
+}
+.left-login > h1{
+display: none;
+}
+.left-login{
+    width: 100%;
+    height: 100%;
+}
+.right-login{
+    width: 100%;
+    height: 100%;
+}
+.left-img{
+    width: 50vh;
+}
+.card-login{
+    width: 90%;
+}
+}
+
+head link {
+    height: 0;
+    width: 0;
+}
