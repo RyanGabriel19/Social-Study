@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="img/icon.jpg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        window.addEventListener('beforeunload', event => 
+        {
+            event.preventDefault(); 
+            event.returnValue = ''
+        })
+        </script>
+    <title>SocialStudy</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login,<br>e tenha acesso aos conteúdos</h1>
+            <img src="animação.svg" class="left-img" width="35vw" height="100%" alt="Animação">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <a href="index.html">Voltar</a>
+                <div class="erro">
+                    <p>ERRO: Usuário ou senha inválidos.</p>
+                </div>
+                <div class="textfield">
+                    <label for="usurario">Email</label>
+                    <input type="text" name="usuario" placeholder="Email">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Entrar</button>
+                <a href ="cadastro.html">Ainda não é inscrito? <strong>Cadastre-se!</strong></a>
+            </div>
+      </div>
+    </div>
+</body>
+</html>
