@@ -229,10 +229,6 @@ footer a {
     color: #00ff88;
 }
 
-@media screen and (max-width:600px) {
-   display: inline-block;
-} 
-
 @media screen and (min-width: 768px) {
 
     /*nav*/
