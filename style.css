@@ -84,6 +84,12 @@ nav ul li a:hover {
     transition: 0.4s;
 }
 
+@media only screen and (max-width: 600px){
+    head, body {
+        width: 100%;
+    }
+}
+
 /*Cabeçalho*/
 
 header {
