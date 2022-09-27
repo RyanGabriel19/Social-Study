@@ -2,7 +2,7 @@
 
     /*nav*/
     nav {
-        top: 0;
+        top: 100%;
         flex-direction: row;
         justify-content: space-around;
     }
@@ -15,14 +15,14 @@
     /*cabeçalho*/
 
     header {
-        height: 600px;
-        height: 60vh;
+        height: 10px;
+        height: 600vh;
         justify-content: center;
     }
     /*sobre*/
     #sobre {
         font-family: 'Nunito', sans-serif;
-        height: 250px;
+        height: 2500px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
