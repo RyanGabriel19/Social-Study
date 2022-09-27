@@ -1,3 +1,74 @@
+@media screen and (max-width: 600px) {
+
+    /*nav*/
+    nav {
+        top: 0;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*cabeçalho*/
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    /*sobre*/
+    #sobre {
+        font-family: 'Nunito', sans-serif;
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*materias*/
+    #materias {
+        padding-left: 8.55%;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #materias h2 {
+        width: 100%;
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    #materias img {
+        border-radius: 30px;
+        border-style:groove;
+        width:  30%;
+    }
+    /*contato*/
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        font-family: 'Nunito', sans-serif;
+        width: 100%;
+    }
+
+    #contato img {
+        padding-left: 60px
+    }
+
+    
+}
+
+
 body {
     font-family: 'Nunito', sans-serif;
     color: #1c1c1c;
@@ -36,6 +107,7 @@ button:hover, button:focus {
     transition-duration: 2s;
     transition: 0.3s;
 }
+
 
 /* Navegação */
 
@@ -82,14 +154,6 @@ nav ul li a:hover {
     border-radius: 10px;
     transition-duration: 2s;
     transition: 0.4s;
-}
-
-@media only screen and (max-width: 600px){
-    nav {
-        width: 100%;
-        display: inline-block;
-        padding: 0;
-    }
 }
 
 /*Cabeçalho*/
@@ -307,6 +371,7 @@ footer a {
 
     
 }
+
 
 /*login*/ 
 
